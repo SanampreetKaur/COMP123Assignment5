@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace COMP123Assignment5
 {
-    public partial class Form1 : Form
+    public partial class StartForm : Form
     {
-        public Form1()
+        public StartForm()
         {
             InitializeComponent();
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
