@@ -16,5 +16,35 @@ namespace COMP123Assignment5
         {
             InitializeComponent();
         }
+
+        private void ProductIDLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ConditionValue_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GPUTypeLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CPUSpeedLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

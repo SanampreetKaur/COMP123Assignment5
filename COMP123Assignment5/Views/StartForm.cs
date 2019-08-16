@@ -26,5 +26,15 @@ namespace COMP123Assignment5.Views
         {
 
         }
+
+        private void StartForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NewOrder_Click(object sender, EventArgs e)
+        {
+            Program.Select.Show();
+        }
     }
 }

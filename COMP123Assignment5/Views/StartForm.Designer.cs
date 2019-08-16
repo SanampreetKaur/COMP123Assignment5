@@ -48,6 +48,7 @@
             this.NewOrder.TabIndex = 0;
             this.NewOrder.Text = "Start a New Order";
             this.NewOrder.UseVisualStyleBackColor = false;
+            this.NewOrder.Click += new System.EventHandler(this.NewOrder_Click);
             // 
             // SavedOrder
             // 
@@ -112,6 +113,7 @@
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartForm";
+            this.Load += new System.EventHandler(this.StartForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
