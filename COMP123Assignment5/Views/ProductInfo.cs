@@ -1,4 +1,5 @@
-﻿using System;
+﻿using COMP123Assignment5.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -44,6 +45,14 @@ namespace COMP123Assignment5
 
         private void NextButton_Click(object sender, EventArgs e)
         {
+            Program.Order.Show();
+            this.Hide();
+
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
 
         }
     }

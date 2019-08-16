@@ -289,6 +289,7 @@
             // 
             // TechSpecsBox
             // 
+            this.TechSpecsBox.BackColor = System.Drawing.Color.Gainsboro;
             this.TechSpecsBox.Controls.Add(this.GpuValue);
             this.TechSpecsBox.Controls.Add(this.WebCamValue);
             this.TechSpecsBox.Controls.Add(this.HDDValue);
@@ -507,6 +508,7 @@
             this.CancelButton.TabIndex = 24;
             this.CancelButton.Text = "Cancel";
             this.CancelButton.UseVisualStyleBackColor = true;
+            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
             // NextButton
             // 
@@ -523,6 +525,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(778, 544);
             this.ControlBox = false;
             this.Controls.Add(this.NextButton);

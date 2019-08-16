@@ -137,12 +137,12 @@
 </value>
   </data>
   <metadata name="DividerLine.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>416, 360, 324, 0</value>
+    <value>13, 136, 338, 0</value>
   </metadata>
   <metadata name="DividerLine.Location" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>416, 360</value>
+    <value>13, 136</value>
   </metadata>
   <metadata name="DividerLine.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>324, 0</value>
+    <value>338, 0</value>
   </metadata>
 </root>

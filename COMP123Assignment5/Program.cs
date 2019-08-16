@@ -17,6 +17,7 @@ namespace COMP123Assignment5.Views
         public static ProductInfo ProductInfo;
         public static Order Order;
         public static product product;
+        public static Information Information;
 
 
         /// <summary>
@@ -34,6 +35,8 @@ namespace COMP123Assignment5.Views
             ProductInfo = new ProductInfo();
             Order = new Order();
             product = new product();
+            Information = new Information();
+
 
             Application.Run(new SplashForm());
         }
