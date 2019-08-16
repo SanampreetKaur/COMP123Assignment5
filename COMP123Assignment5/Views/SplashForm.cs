@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace COMP123Assignment5
+namespace COMP123Assignment5.Views
 {
     public partial class SplashForm : Form
     {
